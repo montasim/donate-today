@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap');
@@ -99,6 +99,10 @@ button{
 .donate{
     margin: 156px 252px 130px 156px;
 }
+.donate-plan{
+    margin-bottom: 130.5px;
+    gap: 24px;
+}
 
 .donate-plan div{
     width: 360px;
@@ -110,6 +114,25 @@ button{
 .donate-plan div img{
     width: 58.13px;
     height: 49.77px;
+}
+
+.donate-plan div h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.donate-plan div p{
+    width: 315px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
 }
 
 .donate span{
