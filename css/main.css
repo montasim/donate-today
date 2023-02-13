@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+:root {
+    --orange: #FF5959;
+    --black: #0B0D17;
+    --gray: #D9DBE1;
+    --white: #FFFFFF;
+}
+
+.margin-zero{
+    margin: 0;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+footer{
+    background: var(--black);
+    padding: 43px 42px;
+}
+
+footer h1{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: var(--orange);
+}
+
+footer p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: var(--gray);
+}
