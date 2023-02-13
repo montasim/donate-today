@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
 
@@ -8,6 +9,10 @@
     --black: #0B0D17;
     --black2: #121212;
     --gray: #D9DBE1;
+    --gray2: #707070;
+    --gray3: #D9D9D9;
+    --gray4: #AA9F9F;
+    --light-yellow: #FFF4D6;
     --white: #FFFFFF;
 }
 
@@ -35,6 +40,20 @@
     text-align: center;
 }
 
+button{
+    width: 157px;
+    height: 48px;
+    background: var(--orange);
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
 .title{
     margin-bottom: 20px;
     font-family: 'Inter';
@@ -55,7 +74,38 @@
     font-size: 18px;
     line-height: 28px;
     text-align: center;
-    color: #707070;
+    color: var(--gray2);
+}
+
+.contact{
+    margin-bottom: 130px;
+}
+
+.contact-container{
+    width: 809px;
+    height: 200px;
+    background: var(--light-yellow);
+}
+
+.contact-container input{
+    width: 275px;
+    height: 48px;
+    left: 505px;
+    top: 3518px;
+    background-color: var(--gray3);
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-indent: 17px;
+    color: var(--gray4);
+}
+
+.contact-container button{
+    border-radius: 0px 5px 5px 0px;
 }
 
 footer{
