@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
 
 :root {
@@ -64,6 +64,7 @@ footer{
 }
 
 footer h1{
+    padding-bottom: 24px;
     font-family: 'Lobster';
     font-style: normal;
     font-weight: 400;
