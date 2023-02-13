@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap');
@@ -36,15 +36,20 @@
     justify-content: center;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .text-align-center{
     text-align: center;
 }
 
 button{
-    width: 157px;
-    height: 48px;
     background: var(--orange);
     border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 16px 20.5px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -55,17 +60,17 @@ button{
 }
 
 .title{
+    width: 492px;
     margin-bottom: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
-    text-align: center;
     color: var(--black2);
 }
 
-.description{
+.title-description{
     width: 691px;
     margin-bottom: 50px;
     font-family: 'Poppins';
@@ -75,6 +80,49 @@ button{
     line-height: 28px;
     text-align: center;
     color: var(--gray2);
+}
+
+.description{
+    width: 482px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray2);
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.donate{
+    margin: 156px 252px 130px 156px;
+}
+
+.donate-plan div{
+    width: 360px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 63.5px 22px 54px 23px;
+}
+
+.donate-plan div img{
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.donate span{
+    margin-bottom: 20px;
+}
+
+.donate img{
+    width: 456px;
+    height: 477px;
+}
+
+.donate-separate{
+    margin-bottom: 100px;
 }
 
 .contact{
@@ -106,6 +154,8 @@ button{
 
 .contact-container button{
     border-radius: 0px 5px 5px 0px;
+    margin: 0;
+    padding: 14px 42px;
 }
 
 footer{
