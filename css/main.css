@@ -102,11 +102,12 @@ button{
 
 .preview{
     gap: 5%;
-    margin: 5em 0;
+    width: 100%;
+    margin: 2em 0;
 }
 
 .preview img{
-    width: 22em;
+    width: 15em;
     object-fit: contain;
 }
 
