@@ -128,6 +128,10 @@ button{
     width: 50%;
 }
 
+.introduction, .introduction2{
+    margin-bottom: 130px;
+}
+
 .introduction{
     background-image: url("../media/images/donation13.jpg");
     background-repeat: no-repeat;
@@ -135,10 +139,9 @@ button{
     width: 100%;
     height: 669px;
     object-fit: contain;
-    margin-bottom: 130px;
 }
 
-.introduction h1{
+.introduction h1, .introduction2 h1{
     width: 826px;
     margin-bottom: 20px;
     font-family: 'Inter';
@@ -146,11 +149,17 @@ button{
     font-weight: 700;
     font-size: 65px;
     line-height: 79px;
-    text-align: center;
+}
+
+.introduction h1{
     color: #FFFFFF;
 }
 
-.introduction p{
+.introduction2 h2{
+    color: #121212;
+}
+
+.introduction p, .introduction2 p{
     width: 691px;
     margin-bottom: 30px;
     font-family: 'Poppins';
@@ -158,8 +167,14 @@ button{
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
+}
+
+.introduction p{
     color: #FFFFFF;
+}
+
+.introduction2 p{
+    color: #707070;
 }
 
 .donate-today{
