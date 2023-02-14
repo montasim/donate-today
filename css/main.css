@@ -100,6 +100,34 @@ button{
     padding-bottom: 20px;
 }
 
+.preview{
+    gap: 5%;
+}
+
+.preview iframe{
+    width: 40em;
+    height: 40em;
+    object-fit: contain;
+}
+
+.preview a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.preview a:hover{
+    color: var(--orange);;
+}
+
+.half-width{
+    width: 50%;
+}
+
 .introduction{
     background-image: url("../media/images/donation13.jpg");
     background-repeat: no-repeat;
