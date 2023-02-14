@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+:root {
+    --orange: #FF5959;
+    --black: #0B0D17;
+    --black2: #121212;
+    --gray: #D9DBE1;
+    --gray2: #707070;
+    --gray3: #D9D9D9;
+    --gray4: #AA9F9F;
+    --light-yellow: #FFF4D6;
+    --white: #FFFFFF;
+}
+
+.margin-zero{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.gap{
+    gap: 83px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+button{
+    background: var(--orange);
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 16px 20.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+.title{
+    width: 492px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: var(--black2);
+}
+
+.title-description{
+    width: 691px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--gray2);
+}
+
+.description{
+    width: 482px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray2);
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.preview{
+    gap: 5%;
+}
+
+.preview iframe{
+    width: 40em;
+    height: 40em;
+    object-fit: contain;
+}
+
+.preview a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.preview a:hover{
+    color: var(--orange);;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.introduction, .introduction2{
+    margin-bottom: 130px;
+}
+
+.introduction{
+    background-image: url("../media/images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 669px;
+    object-fit: contain;
+}
+
+.introduction h1, .introduction2 h1{
+    width: 826px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+}
+
+.introduction h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.introduction2 h2{
+    color: #121212;
+}
+
+.introduction p, .introduction2 p{
+    width: 691px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.introduction p{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.introduction2 p{
+    color: #707070;
+    width: 471px;
+}
+
+.button-container{
+    gap: 30px;
+}
+
+.introduction2 a{
+    gap: 0.6em;
+    width: 10em;
+    text-decoration: none;
+    color: #707070;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.introduction2 a img{
+    width: 18px;
+    object-fit: contain;
+}
+
+.donate-today{
+    margin-bottom: 130px;
+}
+
+.donate-today form h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+}
+
+.donate-today form hr{
+    width: 765px;
+    border: 1px solid #DADADA;
+}
+
+.donate-amount{
+    gap: 22px;
+    margin-bottom: 60PX;
+}
+
+.donate-amount h1, span{
+    border-radius: 5px;
+    padding: 43px 22px 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.donate-amount h1{
+    background-color: #FAFAFA;
+    color: #707070;
+}
+
+.donate-amount span{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+.donate{
+    margin-bottom: 130px;
+}
+
+.donate-plan{
+    margin-bottom: 130.5px;
+    gap: 24px;
+}
+
+.donate-plan div{
+    width: 360px;
+    border-radius: 5px;
+    padding: 63.5px 22px 54px 23px;
+}
+
+.donate-plan-family{
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.donate-plan-shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.donate-plan-education{
+    background: rgba(255, 244, 214, 1)
+}
+
+.donate-plan div img{
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.donate-plan div h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.donate-plan div p{
+    width: 315px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.donate span{
+    margin-bottom: 20px;
+}
+
+.donate img{
+    width: 456px;
+    height: 477px;
+}
+
+.donate-separate{
+    margin-bottom: 100px;
+}
+
+.contact{
+    margin-bottom: 130px;
+}
+
+.contact-container{
+    width: 809px;
+    height: 200px;
+    background: var(--light-yellow);
+}
+
+.contact-container input{
+    width: 275px;
+    height: 48px;
+    left: 505px;
+    top: 3518px;
+    background-color: var(--gray3);
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-indent: 17px;
+    color: var(--gray4);
+}
+
+.contact-container button{
+    border-radius: 0px 5px 5px 0px;
+    margin: 0;
+    padding: 14px 42px;
+}
+
+footer{
+    background: var(--black);
+    padding: 43px 42px;
+}
+
+footer h1{
+    padding-bottom: 24px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: var(--orange);
+}
+
+footer p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: var(--gray);
+}
