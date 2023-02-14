@@ -12,6 +12,10 @@
     --gray2: #707070;
     --gray3: #D9D9D9;
     --gray4: #AA9F9F;
+    --gray5: #B3B3B3;
+    --gray6: #DADADA;
+    --gray7: #FAFAFA;
+    --gray8: #FFEEEE;
     --light-yellow: #FFF4D6;
     --white: #FFFFFF;
 }
@@ -153,7 +157,7 @@ button{
 }
 
 .introduction h1{
-    color: #FFFFFF;
+    color: var(--white);
     text-align: center;
 }
 
@@ -172,12 +176,12 @@ button{
 }
 
 .introduction p{
-    color: #FFFFFF;
+    color: var(--white);
     text-align: center;
 }
 
 .introduction2 p{
-    color: #707070;
+    color: var(--gray2);
     width: 471px;
 }
 
@@ -189,13 +193,12 @@ button{
     gap: 0.6em;
     width: 10em;
     text-decoration: none;
-    color: #707070;
+    color: var(--gray2);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
-    color: #707070;
 }
 
 .introduction2 a img{
@@ -214,12 +217,12 @@ button{
     font-size: 18px;
     line-height: 28px;
     text-align: center;
-    color: #B3B3B3;
+    color: var(--gray5);
 }
 
 .donate-today form hr{
     width: 765px;
-    border: 1px solid #DADADA;
+    border: 1px solid var(--gray6);
 }
 
 .donate-amount{
@@ -239,15 +242,15 @@ button{
 }
 
 .donate-amount h1{
-    background-color: #FAFAFA;
-    color: #707070;
+    background-color: var(--gray7);
+    color: var(--gray2);
 }
 
 .donate-amount span{
-    background-color: #FFEEEE;
-    border: 2px solid #FF5959;
+    background-color: var(--gray8);
+    border: 2px solid var(--orange);
     border-radius: 5px;
-    color: #FF5959;
+    color: var(--orange);
 }
 
 .donate{
@@ -298,7 +301,7 @@ button{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #707070;
+    color: var(--black2);
 }
 
 .donate span{
