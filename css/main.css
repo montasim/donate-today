@@ -184,6 +184,7 @@ button{
 .donate{
     margin-bottom: 130px;
 }
+
 .donate-plan{
     margin-bottom: 130.5px;
     gap: 24px;
@@ -191,9 +192,20 @@ button{
 
 .donate-plan div{
     width: 360px;
-    background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     padding: 63.5px 22px 54px 23px;
+}
+
+.donate-plan-family{
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.donate-plan-shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.donate-plan-education{
+    background: rgba(255, 244, 214, 1)
 }
 
 .donate-plan div img{
