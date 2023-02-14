@@ -40,6 +40,10 @@
     justify-content: space-between;
 }
 
+.gap{
+    gap: 83px;
+}
+
 .text-align-center{
     text-align: center;
 }
@@ -96,8 +100,55 @@ button{
     padding-bottom: 20px;
 }
 
+.donate-today{
+    margin-bottom: 130px;
+}
+
+.donate-today form h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+}
+
+.donate-today form hr{
+    width: 765px;
+    border: 1px solid #DADADA;
+}
+
+.donate-amount{
+    gap: 22px;
+    margin-bottom: 60PX;
+}
+
+.donate-amount h1, span{
+    border-radius: 5px;
+    padding: 43px 22px 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.donate-amount h1{
+    background-color: #FAFAFA;
+    color: #707070;
+}
+
+.donate-amount span{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
 .donate{
-    margin: 156px 252px 130px 156px;
+    margin-bottom: 130px;
 }
 .donate-plan{
     margin-bottom: 130.5px;
