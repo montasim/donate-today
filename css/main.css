@@ -102,11 +102,11 @@ button{
 
 .preview{
     gap: 5%;
+    margin: 5em 0;
 }
 
-.preview iframe{
-    width: 40em;
-    height: 40em;
+.preview img{
+    width: 22em;
     object-fit: contain;
 }
 
